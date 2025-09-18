@@ -110,7 +110,9 @@ void resetBoard(){
 
 int main(){	
 	
-	do{
+	cout << "Welcome To Tic Tac Toe Game! By AbdullahXcode" << endl;
+	cout << "----------------------------------------" << endl;
+		do{
 		while(gameOver()){
 			gameBoard();
 			playerTurn();
@@ -127,6 +129,7 @@ int main(){
 		else{
 			cout<<"Game Draw!!"<<endl;
 		}
+	cout << "----------------------------------------" << endl;
 	
 	}while(again==1);
 
