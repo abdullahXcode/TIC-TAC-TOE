@@ -7,7 +7,7 @@ char turn = 'X';
 bool draw=false; //false ka matlab abhi nai hui draw game 
 int again;
 
-int gameBoard(){ //for showing game board!
+void gameBoard(){ //for showing game board!
 	system("cls");
 	cout<<"\t T I C - T A C - T O E - G A M E"<<endl;
 	cout<<endl<<"player[1] = X     Player[2] = O"<<endl<<endl;
